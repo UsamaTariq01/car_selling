@@ -1,0 +1,90 @@
+
+/*Main Container*/
+
+/* .main-container {
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    margin: 150px 100px 100px 100px;
+    padding: 60px;
+    box-shadow: 0px 0px 0px 0px rgba(12,34,54,43);
+    transition: 0.3s;
+}
+
+.main-container:hover {
+    box-shadow: -5px 1px 105px -17px rgba(0,0,0,0.66);
+    transition: 0.3s;
+} */
+
+/*REGISTER FORM*/
+
+.signin-form {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    box-shadow: 0px 0px 0px 0px rgba(12,34,54,43);
+    transition: 0.3s;
+}
+
+.signin-form:hover {
+    box-shadow: -5px 1px 105px -17px rgba(0,0,0,0.66);
+    transition: 0.3s;
+}
+
+/*  HEADING    */
+
+.signin-heading {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+/*BUTTON*/
+
+.signin-button {
+    border: none;
+    background-color: white;
+    padding: 8px 20px;
+    transition: 0.3s;
+    position: absolute;
+    left: 40%;
+    margin: -50px 0px 0px 0px;
+}
+
+.signin-button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    transform: scale(1.15);
+}
+
+/*    INPUT TAGS    */
+
+.signin-input-tag-username {
+    margin: 10px 10px 10px 20px;
+}
+
+.signin-input-tag-email {
+    margin: 10px 10px 10px 53px;
+}
+
+.signin-input-tag-password {
+    margin: 10px 10px 10px 25px;
+}
+
+/*    INUPT SPACE   */
+
+.signin-input-data {
+    margin: 50px 50px 50px 70px;
+}
+
+.register-navigation {
+    cursor: pointer;
+    margin: -20px 228px 0px 210px;
+}
+
+.signin-navigation {
+    margin: -5px 380px 0px 10px;
+    cursor: pointer;
+}

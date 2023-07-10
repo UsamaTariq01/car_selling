@@ -1,0 +1,19 @@
+.top-ranked-h {
+    margin-left: 30px;
+    text-shadow: 1px 1px 6px #888888;
+}
+
+.top-ranked-img {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.top-ranked-buy-now {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    border-top:1px solid rgb(217, 217, 217);
+    border-bottom:1px solid rgb(217, 217, 217);
+}

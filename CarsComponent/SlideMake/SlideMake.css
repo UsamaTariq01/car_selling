@@ -1,0 +1,63 @@
+.slide-make-main-container {
+    box-shadow: -8px 3px 64px -15px rgba(0,0,0,0.62);
+    padding: 10px;
+    margin: -87px 0px 0px 90%;
+    height: 770px;
+    position: fixed;
+    right: 0;
+    background-color: white;
+}
+
+.silde-make-header {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: -10px -9px 0px -10px;
+}
+
+.slide-make-car-list {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 79px;
+    margin-right: 95.5px;
+}
+
+.silde-make-car-list-div {
+    position: relative;
+	float: left;
+	display: inline-block;
+	margin: 0px 0px 0px -10px;
+}
+
+.silde-make-car-ul {
+	padding: 0;
+    margin: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 700px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0); 
+  }

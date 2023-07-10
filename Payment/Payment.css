@@ -1,0 +1,157 @@
+.payment-split_left {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    z-index: 1010101010;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-color: rgb(241, 240, 240);
+}
+
+.payment-back {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 92% 0px 10px;
+    transition: 0.5s;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.payment-back:hover {
+    background-color: rgb(241, 240, 240);
+    color: black;
+    transition: 0.5s;
+}
+
+/* Paragraph details  */
+
+.payment-para {
+    color: #67696D;
+    font-weight: bold;
+}
+
+.payment-split_right {
+    height: 100%;
+    width: 26%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    /* overflow-x: hidden; */
+    right: 0;
+}
+
+.payment-split_left-div {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 50px;
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+.payment-split_left-div-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 50px;
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+.payment-split_left-div-bottom-down {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 50px;
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+.payment-split_left-div-child {
+    width: 50%;
+}
+
+.payment-input {
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    height: 35px;
+    padding-left: 14px;
+}
+
+.payment-input-down {
+    border: none;
+    border-radius: 20px;
+    width: 160%;
+    height: 35px;
+    padding-left: 14px;
+}
+
+.payment-input-bottom {
+    border: none;
+    border-radius: 20px;
+    width: 50%;
+    height: 35px;
+    padding-left: 14px;
+}
+
+.payment-heading-word {
+    color: rgb(81, 81, 82);
+    margin-left: 110px;
+}
+
+.payment-line {
+    width: 80%;
+}
+
+/* RIGHT SIDE */
+
+.payment-split_right-image {
+    width: 104.5%;
+    height: 100%;
+}
+
+.payment-split_right-car-make {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 39, 39);
+}
+
+.payment-split_right-car-summary {
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.payment-split_right-car-detail {
+    color: rgb(138, 130, 130);
+    margin-left: 40px;
+}
+
+.payment-buy-button {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 12px;
+    width: 30%;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 35%;
+    transition: 0.3s;
+    border: 2px solid black;
+}
+
+.payment-buy-button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: 0.3s;
+}

@@ -1,0 +1,28 @@
+  .model-card-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 100%;
+  }
+
+  .model-logo-image {
+      width: 100px;
+      height: 110px;
+      margin-left: 46.5%;
+  }
+
+  .model-p-choose {
+      font-size: 25px;
+      margin-left: 40%;
+      margin-top: 4%;
+  }
+
+  .model-x-div {
+      font-size: 30px;
+      margin-left: 80%;
+      margin-top: -100px;
+  }
+
+  .model-x {
+      cursor: pointer;
+  }

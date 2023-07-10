@@ -1,0 +1,158 @@
+.sellCar-split_left {
+    height: 100%;
+    /* width: 75%; */
+    /* position: fixed; */
+    /* z-index: 1010101010;
+    top: 0; */
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+    /* left: 0; */
+    background-color: rgb(241, 240, 240);
+}
+
+.sellCar-back {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 92% 0px 10px;
+    transition: 0.5s;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.sellCar-back:hover {
+    background-color: rgb(241, 240, 240, 0.0);
+    color: black;
+    transition: 0.5s;
+}
+
+/* Paragraph details  */
+
+.sellCar-para {
+    color: #67696D;
+    font-weight: bold;
+}
+
+.sellCar-split_right {
+    height: 100%;
+    width: 26%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    /* overflow-x: hidden; */
+    right: 0;
+}
+
+.sellCar-split_left-div {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 50px;
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+.sellCar-split_left-div-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 50px;
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+.sellCar-split_left-div-bottom-down {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 50px;
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+.sellCar-split_left-div-child {
+    width: 50%;
+}
+
+.sellCar-input {
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    height: 35px;
+    padding-left: 14px;
+    font-weight: 600
+}
+
+.sellCar-input-down {
+    border: none;
+    border-radius: 20px;
+    width: 160%;
+    height: 35px;
+    padding-left: 14px;
+}
+
+.sellCar-input-bottom {
+    border: none;
+    border-radius: 20px;
+    width: 50%;
+    height: 35px;
+    padding-left: 14px;
+}
+
+.sellCar-heading-word {
+    color: rgb(81, 81, 82);
+    margin-left: 110px;
+}
+
+.sellCar-line {
+    width: 80%;
+}
+
+/* RIGHT SIDE */
+
+.sellCar-split_right-image {
+    width: 104.5%;
+    height: 100%;
+}
+
+.sellCar-split_right-car-make {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 39, 39);
+}
+
+.sellCar-split_right-car-summary {
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.sellCar-split_right-car-detail {
+    color: rgb(138, 130, 130);
+    margin-left: 40px;
+}
+
+.sellCar-buy-button {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 12px;
+    width: 30%;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 35%;
+    transition: 0.3s;
+    border: 2px solid black;
+}
+
+.sellCar-buy-button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: 0.3s;
+}

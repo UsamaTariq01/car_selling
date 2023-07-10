@@ -1,0 +1,73 @@
+.single-car-data-img {
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.single-car-data-details {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -25%;
+    padding: 10px;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    box-shadow: 0px 2px 24px -5px rgba(0,0,0,0.75);
+}
+
+/* CAR DETAILS */
+
+.single-car-data-details-innerDiv {
+    margin-left: 30px;
+}
+
+.single-car-data-details-name {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.single-car-data-details-price {
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+.single-car-data-buycar {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border: none;
+    background-color: black;
+    margin-left: 90%;
+}
+
+.single-car-data-back {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border: none;
+    background-color: black;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    text-align: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.single-car-data-back:hover {
+    background-color: rgb(241, 240, 240, 0);
+    color: black;
+    transition: 0.5s;
+}
+
+.single-car-details-span {
+    font-weight: bold;
+}

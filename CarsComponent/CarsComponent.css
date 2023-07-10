@@ -1,0 +1,124 @@
+/* Split the screen in half */
+.split_left {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1010101010;
+    top: 0;
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+    left: 0;
+    background-color: white;
+}
+
+.split_right {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    box-shadow: -9px -1px 41px -7px rgba(0,0,0,0.37);
+}
+  
+  /* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.logo-image {
+    height: 120px;
+    display: block;
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 60%;
+}
+
+.car-image {
+    height: 720px;
+    width: 700px;
+    margin-left: 500px;
+    margin-top: -35px; 
+}
+
+.car-name {
+    position: fixed;
+    margin-top: -100px;
+    margin-left: 50%;
+}
+
+.car-name-heading {
+    font-size: 108px;
+    word-spacing: 1cm;
+}
+
+.centered-car-desc {
+    padding: 10px;
+    margin: 220px 50px 50px 60px;
+}
+
+.para-car-desc {
+    font-size: 15px;
+    /* color: white; */
+}
+
+.side-left {
+    position: fixed;
+}
+
+.more-cars {
+    transform: rotate(-90deg);
+    /* background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%); */
+    margin: 270px 0px 0px -60px;
+    padding: 12px 10px 1px 10px;
+    padding-right: -20px;
+}
+
+.more-car-text {
+    color: white;
+}
+  
+.arrow {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+}
+  
+.arrow-bottom {
+    transform: rotate(135deg);
+}
+
+.more-car-text-arrow {
+    list-style-type: none;
+    text-align: center;
+}
+
+.back {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    transition: 0.6s;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+}
